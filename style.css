@@ -1,6 +1,7 @@
  .day-of-the-week-writing span {
         writing-mode: vertical-rl;
         text-orientation: upright;
+        text-align: center;
     }
 
     .green-line {
@@ -32,6 +33,7 @@
 
     #schedule td{
         border: 1px solid black;
+        width: 2px;
     }
 
     .schedule-wrapper{
