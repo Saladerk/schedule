@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Расписание</title>
+</head>
+<body>
+    <style> 
+    
+        .day-of-the-week-writing span {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+        }
+
+        .green-line {
+            background-color: green;
+            height: 9px;
+            width: 100%; 
+        }
+
+        .day{
+            width: 1px;
+        }
+        #schedule{
+            margin-top: 10px;
+            width: 50%; 
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        .schedule-subj {
+            text-align: center;
+        }
+        #schedule th{
+            border: 1px solid black;
+        }
+
+        #schedule td{
+            border: 1px solid black;
+        }
+
+        .schedule-wrapper{
+           margin-bottom: 10px;
+        }
+    </style>
+
+    <div class = "schedule-wrapper">
+        <a href = "http://math.csu.ru/new_files/students/rasp_2019_2020_2.pdf" target = "_blank"  >Полное расписание.</a>
+    </div>
+
+    <table id="schedule">
+        <thead> 
+            <th colspan ="2" class="day"></th>
+            <th colspan ="2">МТ-202</th>
+        </thead>
+        <tbody>
+            <!-- Понедельник -->
+            <tr>   
+                <td class ="day-of-the-week-writing" rowspan="4"><span>Понедельник</span></td>
+                <td>1</td>
+                <td class="schedule-subj" colspan ="2">Философия</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="schedule-subj" colspan ="2">Дифференциальные и разностные уравнения</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr class="green-line">
+                <td colspan="4"></td>
+            </tr>
+            <!-- Вторник -->
+            <tr>   
+                <td class="day-of-the-week-writing" rowspan ="4"><span>Вторник</span></td>
+                <td>1</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr class="green-line">
+                <td colspan="4"></td>
+            </tr>
+            <!-- Среда -->
+            <tr>   
+                <td class="day-of-the-week-writing" rowspan ="5"><span>Среда</span></td>
+                <td>1</td>
+                <td class="schedule-subj" colspan ="2">Интернет технологии</td>
+            </tr>
+            <tr>
+                <td rowspan ="2">2</td>
+                <td class="schedule-subj" colspan ="2">Математическая логика и теория алгоритмов</td>
+            </tr>
+            <tr>
+                <td class="schedule-subj" colspan ="2">Операционные системы</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td colspan ="2"></td>
+            </tr>
+            <tr class="green-line">
+                <td colspan ="5"></td>
+            </tr>
+            <!-- Четверг -->
+            <tr>   
+                <td class ="day-of-the-week-writing" rowspan ="6"><span>Четверг</span></td>
+                <td>1</td>
+                <td class="schedule-subj" colspan ="2">Прикладная и оздоровительная физическая культура</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="schedule-subj" colspan ="2">Математическая логика и теория алгоритмов</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="schedule-subj" colspan ="2">Дифференциальные и разностные уравнения</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="schedule-subj" colspan ="2">Операционные системы</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="schedule-subj" colspan ="2"></td>
+            </tr>     
+            <tr>
+                <td>6</td>
+                <td class="schedule-subj" colspan ="2"></td>
+            </tr>           
+            <tr class="green-line">
+                <td colspan ="5"></td>
+            </tr>
+            <!-- Пятница -->
+            <tr>   
+                <td class ="day-of-the-week-writing" rowspan ="6"><span>Пятница</span></td>
+                <td>1</td>
+                <td class="schedule-subj" colspan ="2">Иностранный язык</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="schedule-subj" colspan ="2">Введение в анализ информационных технологий</td>
+            </tr>
+            <tr>
+                <td rowspan ="2">3</td>
+                <td class="schedule-subj" colspan ="2"><br></td>
+            </tr>  
+            <tr>
+                <td class="schedule-subj" colspan ="2">Введение в анализ информационных технологий</td>
+            </tr>          
+            <tr>
+                <td rowspan ="2">4</td>
+                <td class="schedule-subj" colspan ="2"><br></td>
+            </tr>
+            <tr>
+                <td class="schedule-subj" coldspan ="2">Компьютерная графика</td>
+            </tr>          
+            <tr class="green-line">
+                <td colspan ="5"></td>
+            </tr>    
+            <!-- Суббота -->
+            <tr>   
+                <td class ="day-of-the-week-writing" rowspan ="4"><span>Суббота</span></td>
+                <td>2</td>
+                <td class="schedule-subj" colspan ="2"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="schedule-subj" colspan ="2">Компьютерная графика</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="schedule-subj" colspan ="2">Интернет-технологии</td>
+            </tr>         
+            <tr>
+                <td>5</td>
+                <td class="schedule-subj" colspan ="2"></td>
+            </tr>        
+            <tr class="green-line">
+                <td colspan ="3"></td>
+            </tr>                                  
+        </tbody>
+    </table>
+
+
+</body>
+</html>
