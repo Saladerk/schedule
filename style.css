@@ -17,8 +17,9 @@
     .day{
         width: 1px;
     }
+    
     #schedule{
-        margin-top: 10px;
+        margin-top: 1%;
         width: 100%; 
         border-collapse: collapse;
         border: 1px solid black;
@@ -33,9 +34,9 @@
 
     #schedule td{
         border: 1px solid black;
-        width: 2px;
+        width: 1px;
     }
 
     .schedule-wrapper{
-        margin-bottom: 10%;
+        margin-bottom: 1px;
     }
