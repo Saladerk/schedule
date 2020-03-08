@@ -1,0 +1,39 @@
+ .day-of-the-week-writing span {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+
+    .green-line {
+        background-color: green;
+        height: 9px;
+        width: 100%; 
+    }
+    
+    .nothing-day{
+        background-color: rgb(139, 135, 135);
+    }
+
+    .day{
+        width: 1px;
+    }
+    #schedule{
+        margin-top: 10px;
+        width: 100%; 
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    .schedule-subj {
+        text-align: center;
+        vertical-align: middle;
+    }
+    #schedule th{
+        border: 1px solid black;
+    }
+
+    #schedule td{
+        border: 1px solid black;
+    }
+
+    .schedule-wrapper{
+        margin-bottom: 10%;
+    }
