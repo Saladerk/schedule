@@ -1,42 +1,16 @@
- .day-of-the-week-writing span {
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        text-align: center;
-    }
-
-    .green-line {
-        background-color: green;
-        height: 9px;
-        width: 100%; 
-    }
-    
-    .nothing-day{
-        background-color: rgb(139, 135, 135);
-    }
-
-    .day{
-        width: 1px;
-    }
-    
-    #schedule{
-        margin-top: 1%;
-        width: 100%; 
-        border-collapse: collapse;
-        border: 1px solid black;
-    }
-    .schedule-subj {
-        text-align: center;
-        vertical-align: middle;
-    }
-    #schedule th{
-        border: 1px solid black;
-    }
-
-    #schedule td{
-        border: 1px solid black;
-        width: 1px;
-    }
-
-    .schedule-wrapper{
-        margin-bottom: 1px;
-    }
+.container-fluid.day-name {
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+.subject-number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: center;
+  vertical-align: middle;
+}
+.subject-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}

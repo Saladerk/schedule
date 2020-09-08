@@ -1,169 +1,155 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <title>Расписание</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class = "schedule-wrapper">
-        <a href = "http://math.csu.ru/new_files/students/rasp_2019_2020_2.pdf" target = "_blank"  >Полное расписание.</a>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid day-name">Понедельник</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">3</div>
+        <div class="col-11 subject-name">
+          АЛГОРИТМЫ И АНАЛИЗ СЛОЖНОСТИ (ЛЕК.)<br />ЛЕПЧИНСКИЙ М.Г., ДОЦЕНТ, АУД.
+          421<br />11:20 - 12:50 (25)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">4</div>
+        <div class="col-11 subject-name">
+          2Н. АЛГОРИТМЫ И АНАЛИЗ СЛОЖНОСТИ (ЛАБ.)<br />ЛЕПЧИНСКИЙ М.Г., ДОЦЕНТ,
+          АУД. 421<br />13:15 - 14:45
+        </div>
+      </div>
     </div>
 
-    <table id="schedule">
-        <thead> 
-            <th colspan ="2" class="day"></th>
-            <th colspan ="2">МТ-202</th>
-        </thead>
-        <tbody>
-            <!-- Понедель   ник -->
-            <tr>   
-                <td class ="day-of-the-week-writing" rowspan="4"><span>Понедельник</span></td>
-                <td>1</td>
-                <td class="schedule-subj" colspan ="2">ФИЛОСОФИЯ (ЛЕК.)<br>КАМАЛЕТДИНОВА А.Я., ДОЦЕНТ, АУД. А-13</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td class="schedule-subj" colspan ="2">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ЛЕК.)<br>ДЕМЕНТЬЕВ О.Н., ЗАВ.КАФ., АУД. 435</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td colspan ="2"><br><br></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td colspan ="2"><br><br></td>
-            </tr>
-            <tr class="green-line">
-                <td colspan="4"></td>
-            </tr>
-            <!-- Вторник -->
-            <tr>   
-                <td class="day-of-the-week-writing" rowspan ="4"><span>Вторник</span></td>
-                <td>1</td>
-                <td class="schedule-subj" colspan="2"><br>ДЕНЬ<br><br></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td class="schedule-subj" colspan="2"><br>САМОСТОЯТЕЛЬНЫХ<br><br></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td class="schedule-subj" colspan="2"><br>ЗАНЯТИЙ<br><br></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td colspan ="2"><br><br></td>
-            </tr>
-            <tr class="green-line">
-                <td colspan="4"></td>
-            </tr>
-            <!-- Среда -->
-            <tr>   
-                <td class="day-of-the-week-writing" rowspan ="5"><span>Среда</span></td>
-                <td>1</td>
-                <td class="schedule-subj" colspan ="2">ИНТЕРНЕТ-ТЕХНОЛОГИИ (ЛАБ.)<br>АБАИМОВ А.А., АССИСТЕНТ, АУД. 422</td>
-            </tr>
-            <tr>
-                <td rowspan ="2">2</td>
-                <td class="schedule-subj" colspan ="2">1Н. МАТЕМАТИЧЕСКАЯ ЛОГИКА И ТЕОРИЯ АЛГОРИТМОВ (ПР.)<br>КАЗАКОВ А.А., СТ. ПРЕПОДАВАТЕЛЬ, АУД. 013</td>
-            </tr>
-            <tr>
-                <td class="schedule-subj" colspan ="2">2Н. ОПЕРАЦИОННЫЕ СИСТЕМЫ (ПР.)<br>АБАИМОВ А.А., АССИСТЕНТ, АУД. 422</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td colspan ="2"><br><br></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td colspan ="2"><br><br></td>
-            </tr>
-            <tr class="green-line">
-                <td colspan ="5"></td>
-            </tr>
-            <!-- Четверг -->
-            <tr>   
-                <td class ="day-of-the-week-writing" rowspan ="6"><span>Четверг</span></td>
-                <td>1</td>
-                <td class="schedule-subj" colspan ="2">ПРИКЛАДНАЯ И ОЗДОРОВИТЕЛЬНАЯ ФИЗИЧЕСКАЯ КУЛЬТУРА (ПР.)<br>МАРКЕЛОВ И.П., ПРЕПОДАВАТЕЛЬ, 100 (4К.)</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td class="schedule-subj" colspan ="2">МАТЕМАТИЧЕСКАЯ ЛОГИКА И ТЕОРИЯ АЛГОРИТМОВ (ЛЕК.)<br>МИТИНА О.В., ДОЦЕНТ, АУД. А-17</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td class="schedule-subj" colspan ="2">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ПР.)<br>РЯЗАНОВ К.А., АУД. 316</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td class="schedule-subj" colspan ="2">ОПЕРАЦИОННЫЕ СИСТЕМЫ (ЛЕК.)<br>СКРИПОВ С.А., ДОЦЕНТ, АУД. А-17</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td class="schedule-subj" colspan ="2"><br><br></td>
-            </tr>     
-            <tr>
-                <td>6</td>
-                <td class="schedule-subj" colspan ="2"><br><br></td>
-            </tr>           
-            <tr class="green-line">
-                <td colspan ="5"></td>
-            </tr>
-            <!-- Пятница -->
-            <tr>   
-                <td class ="day-of-the-week-writing" rowspan ="6"><span>Пятница</span></td>
-                <td>1</td>
-                <td class="schedule-subj" colspan ="2">ИНОСТРАННЫЙ ЯЗЫК (ПР.)<br>МУХАРКИНА В.С., АССИСТЕН, АУД. 011</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td class="schedule-subj" colspan ="2">ВВЕДЕНИЕ В АНАЛИЗ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ (ЛЕК.)<br>ПАНАСЕНКО Д.И., АУД. А-15</td>
-            </tr>
-            <tr>
-                <td rowspan ="2">3</td>
-                <td class="schedule-subj" colspan ="2"><br><br></td>
-            </tr>  
-            <tr>
-                <td class="schedule-subj" colspan ="2">2Н. ВВЕДЕНИЕ В АНАЛИЗ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ (ПР.)<br>ПАНАСЕНКО Д.И., АУД. 413</td>
-            </tr>          
-            <tr>
-                <td rowspan ="2">4</td>
-                <td class="schedule-subj" colspan ="2"><br><br></td>
-            </tr>
-            <tr>
-                <td class="schedule-subj" coldspan ="2">2Н. КОМПЬЮТЕРНАЯ ГРАФИКА (ПР.)<br>МАКОВЕЦКИЙ А.Ю., ДОЦЕНТ, АУД. 422</td>
-            </tr>          
-            <tr class="green-line">
-                <td colspan ="5"></td>
-            </tr>    
-            <!-- Суббота -->
-            <tr>   
-                <td class ="day-of-the-week-writing" rowspan ="4"><span>Суббота</span></td>
-                <td>2</td>
-                <td class="schedule-subj" colspan ="2"><br><br></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td class="schedule-subj" colspan ="2">КОМПЬЮТЕРНАЯ ГРАФИКА (ЛЕК.)<br>МАКОВЕЦКИЙ А.Ю., ДОЦЕНТ, АУД. А-13</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td class="schedule-subj" colspan ="2">ИНТЕРНЕТ-ТЕХНОЛОГИИ (ЛЕК.)<br>ПОТАПОВ В.В., АУД. А-13</td>
-            </tr>         
-            <tr>
-                <td>5</td>
-                <td class="schedule-subj" colspan ="2"><br><br></td>
-            </tr>        
-            <tr class="green-line">
-                <td colspan ="3"></td>
-            </tr>                                  
-        </tbody>
-    </table>
+    <div class="container-fluid day-name">Вторник</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">5</div>
+        <div class="col-11 subject-name">
+          ТЕОРИЯ КОНЕЧНЫ ГРАФОВ И ЕЕ ПРИЛОЖЕНИЯ (ЛЕК.)<br />ШАЛАГИНОВ Л.В.,
+          ДОЦЕНТ, АУД. А-13<br />15:00 - 16:30(10)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">6</div>
+        <div class="col-11 subject-name">
+          ТЕОРИЯ ВЕРОЯТНОСТЕЙ (ЛЕК.)<br />ПАЗИЙ Н.Д., ДОЦЕНТ, АУД. 413<br />16:40
+          - 18:10
+        </div>
+      </div>
+    </div>
 
+    <div class="container-fluid day-name">Среда</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">2</div>
+        <div class="col-11 subject-name">
+          ТЕХНОЛОГИЯ БАЗ ДАННЫХ (ЛЕК.)<br />АЛЕКСЕЕВА Т.М., ДОЦЕНТ,
+          ДИСТАНЦИОННО<br />9:40 - 11:10
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">5</div>
+        <div class="col-11 subject-name">
+          2Н. ТЕОРИЯ НЕЧЕТКИХ МНОЖЕСТВ И ЕЕ ПРИЛОЖЕНИЯ (ПР.)<br />КРАСИЛЬНИКОВА
+          Е.С., СТ.ПРЕПОДАВАТЕЛЬ, АУД. 445<br />15:00 - 16:30(10)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">6</div>
+        <div class="col-11 subject-name">
+          ТЕОРИЯ НЕЧЕТКИХ МНОЖЕСТВ И ЕЕ ПРИЛОЖЕНИЯ (ЛЕК.)<br />КРАСИЛЬНИКОВА
+          Е.С., СТ.ПРЕПОДАВАТЕЛЬ, АУД. А-17<br />16:40 - 18:10
+        </div>
+      </div>
+    </div>
 
-</body>
+    <div class="container-fluid day-name">Четверг</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">2</div>
+        <div class="col-11 subject-name">
+          ТЕХНОЛОГИЯ БАЗ ДАННЫХ (ЛАБ.)<br />АЛЕКСЕЕВА Т.М., ДОЦЕНТ,
+          ДИСТАНЦИОННО<br />9:40 - 11:10
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid day-name">Пятница</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">4</div>
+        <div class="col-11 subject-name">
+          ПРИНЯТИЕ РЕШЕНИЙ ПРИ МНОГИХ КРИТЕРИЯХ (ЛЕК.)<br />БЕЛОВ Е.Г., ДОЦ.,
+          АУД. А-13<br />13:15 - 14:45(15)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">5</div>
+        <div class="col-11 subject-name">
+          1Н. ТЕОРИЯ КОНЕЧНЫХ ГРАФОВ И ЕЕ ПРИЛОЖЕНИЯ (ПР.)<br />ПАНАСЕНКО Д.И.,
+          АУД. 445<br />15:00 - 16:30
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid day-name">Суббота</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">1</div>
+        <div class="col-11 subject-name">
+          WEB-ПРОГРАММИРОВАНИЕ (ЛАБ.)<br />АБАИМОВ А.А., АУД. 422<br />8:00 -
+          9:30(10)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">2</div>
+        <div class="col-11 subject-name">
+          ТЕОРИЯ ВЕРОЯТНОСТЕЙ (ПР.)<br />ПОСТНИКОВА Е.Ю., СТ.ПР., АУД. 429<br />9:40
+          - 11:10(10)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">3</div>
+        <div class="col-11 subject-name">
+          WEB-ПРОГРАММИРОВАНИЕ (ЛЕК.)<br />ПОТАПОВ В.В., АУД. А-13<br />11:20 -
+          12:50
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">7</div>
+        <div class="col-11 subject-name">
+          ПРИКЛАДНАЯ И ОЗДОРОВИТЕЛЬНАЯ ФИЗИЧЕСКАЯ КУЛЬТУРА (ЛЕК.)*<br />ИВАНОВ
+          В.Д., ДОЦЕНТ, ДИСТАНЦИОННО<br />18:20 - 19:50
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
