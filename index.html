@@ -3,135 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
     <title>Расписание</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid day-name">Понедельник</div>
+    <div class="container-fluid day-name" id="monday">Понедельник</div>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-1 subject-number">3</div>
-        <div class="col-11 subject-name">
-          АЛГОРИТМЫ И АНАЛИЗ СЛОЖНОСТИ (ЛЕК.)<br />ЛЕПЧИНСКИЙ М.Г., ДОЦЕНТ, АУД.
-          421<br />11:20 - 12:50 (25)
-        </div>
-      </div>
       <div class="row">
         <div class="col-1 subject-number">4</div>
         <div class="col-11 subject-name">
-          2Н. АЛГОРИТМЫ И АНАЛИЗ СЛОЖНОСТИ (ЛАБ.)<br />ЛЕПЧИНСКИЙ М.Г., ДОЦЕНТ,
-          АУД. 421<br />13:15 - 14:45
+          2Н. МЕТОДЫ ОПТИМИЗАЦИИ И ИССЛЕДОВАНИЕ ОПЕРАЦИЙ (ПР.)<br />
+          ЛАНИНА Ж.Н., СТ.ПРЕПОДАВАТЕЛЬ, АУД. 429<br />
+          13:15 - 14:45 (15)
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid day-name">Вторник</div>
-    <div class="container-fluid">
       <div class="row">
         <div class="col-1 subject-number">5</div>
         <div class="col-11 subject-name">
-          ТЕОРИЯ КОНЕЧНЫ ГРАФОВ И ЕЕ ПРИЛОЖЕНИЯ (ЛЕК.)<br />ШАЛАГИНОВ Л.В.,
-          ДОЦЕНТ, АУД. А-13<br />15:00 - 16:30(10)
+          1Н. МАТЕМАТИЧЕСКАЯ СТАТИСТИКА (ЛЕК.)<br />
+          ПАЗИЙ Н.Д., ДОЦЕНТ, АУД. А-17<br />
+          <hr>
+          2Н. МЕТОДЫ ОПТИМИЗАЦИИ И ИССЛЕДОВАНИЕ ОПЕРАЦИЙ (ПР.)<br />
+          ЛАНИНА Ж.Н., СТ.ПРЕПОДАВАТЕЛЬ, АУД. 429<br />
+          15:00 - 16:30 (10)
         </div>
       </div>
       <div class="row">
         <div class="col-1 subject-number">6</div>
         <div class="col-11 subject-name">
-          ТЕОРИЯ ВЕРОЯТНОСТЕЙ (ЛЕК.)<br />ПАЗИЙ Н.Д., ДОЦЕНТ, АУД. 413<br />16:40
-          - 18:10
+          ЭКОНОМИКА (ЛЕК.)<br />
+          ЕГОРОВА А.А., ДОЦЕНТ, АУД. А-17 <br />
+          16:40 - 18:10
         </div>
       </div>
     </div>
 
-    <div class="container-fluid day-name">Среда</div>
+    <div class="container-fluid day-name" id="tuesday">Вторник</div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-1 subject-number">2</div>
+        <div class="col-1 subject-number">0</div>
         <div class="col-11 subject-name">
-          ТЕХНОЛОГИЯ БАЗ ДАННЫХ (ЛЕК.)<br />АЛЕКСЕЕВА Т.М., ДОЦЕНТ,
-          ДИСТАНЦИОННО<br />9:40 - 11:10
+          ДЕНЬ САМОСТОЯТЕЛЬНЫХ ЗАНЯТИЙ
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid day-name" id="wednesday">Среда</div>
+    <div class="container-fluid">
       <div class="row">
         <div class="col-1 subject-number">5</div>
         <div class="col-11 subject-name">
-          2Н. ТЕОРИЯ НЕЧЕТКИХ МНОЖЕСТВ И ЕЕ ПРИЛОЖЕНИЯ (ПР.)<br />КРАСИЛЬНИКОВА
-          Е.С., СТ.ПРЕПОДАВАТЕЛЬ, АУД. 445<br />15:00 - 16:30(10)
+          ТРАЗРАБОТКА ПРИЛОЖЕНИЙ ДЛЯ ОПЕРАЦ-ОЙ СИСТЕМЫ WINDOWS (ЛАБ.)<br />
+          КОСЕНКО Е.С., АУД. 445<br />
+          15:00 - 16:30 (10)
         </div>
       </div>
       <div class="row">
         <div class="col-1 subject-number">6</div>
         <div class="col-11 subject-name">
-          ТЕОРИЯ НЕЧЕТКИХ МНОЖЕСТВ И ЕЕ ПРИЛОЖЕНИЯ (ЛЕК.)<br />КРАСИЛЬНИКОВА
-          Е.С., СТ.ПРЕПОДАВАТЕЛЬ, АУД. А-17<br />16:40 - 18:10
+          СОВРЕМЕННЫЕ КОМПЬЮТЕРНЫЕ ТЕХНОЛОГИИ (ЛЕК.)<br />
+          ИЗЕРГИН Д.Б., СТ.ПРЕПОДАВАТЕЛЬ, АУД. 432<br />
+          16:40 - 18:10
         </div>
       </div>
     </div>
 
-    <div class="container-fluid day-name">Четверг</div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-1 subject-number">2</div>
-        <div class="col-11 subject-name">
-          ТЕХНОЛОГИЯ БАЗ ДАННЫХ (ЛАБ.)<br />АЛЕКСЕЕВА Т.М., ДОЦЕНТ,
-          ДИСТАНЦИОННО<br />9:40 - 11:10
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid day-name">Пятница</div>
+    <div class="container-fluid day-name" id="thursday">Четверг</div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-1 subject-number">4</div>
         <div class="col-11 subject-name">
-          ПРИНЯТИЕ РЕШЕНИЙ ПРИ МНОГИХ КРИТЕРИЯХ (ЛЕК.)<br />БЕЛОВ Е.Г., ДОЦ.,
-          АУД. А-13<br />13:15 - 14:45(15)
+          ТЕОРИЯ АВТОМАТОВ И ФОРМАЛЬНЫХ ЯЗЫКОВ (ЛЕК.)<br />
+          ШАЛАГИНОВ Л.В., ДОЦЕНТ, АУД.А-13/ 413<br />
+          13:15 - 14:45 (15)
         </div>
       </div>
       <div class="row">
         <div class="col-1 subject-number">5</div>
         <div class="col-11 subject-name">
-          1Н. ТЕОРИЯ КОНЕЧНЫХ ГРАФОВ И ЕЕ ПРИЛОЖЕНИЯ (ПР.)<br />ПАНАСЕНКО Д.И.,
-          АУД. 445<br />15:00 - 16:30
+          МАТЕМАТИЧЕСКАЯ СТАТИСТИКА (ПР.)<br />
+          ПАЗИЙ Н.Д., ДОЦЕНТ, АУД. 429<br />
+          15:00 - 16:30
         </div>
       </div>
     </div>
 
-    <div class="container-fluid day-name">Суббота</div>
+    <div class="container-fluid day-name" id="friday">Пятница</div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-1 subject-number">1</div>
         <div class="col-11 subject-name">
-          WEB-ПРОГРАММИРОВАНИЕ (ЛАБ.)<br />АБАИМОВ А.А., АУД. 422<br />8:00 -
-          9:30(10)
+          ТЕХНОЛОГИЯ БАЗ ДАННЫХ (ЛЕК.)<br />
+          АЛЕКСЕЕВА Т.М., ДОЦЕНТ, ДИСТАНТ<br />
+          08:00 - 09:30(10)
         </div>
       </div>
       <div class="row">
         <div class="col-1 subject-number">2</div>
         <div class="col-11 subject-name">
-          ТЕОРИЯ ВЕРОЯТНОСТЕЙ (ПР.)<br />ПОСТНИКОВА Е.Ю., СТ.ПР., АУД. 429<br />9:40
-          - 11:10(10)
+          МЕТОДЫ ОПТИМИЗАЦИИ И ИССЛЕДОВАНИЕ ОПЕРАЦИЙ (ЛЕК.)<br />
+          КРАСИЛЬНИКОВА Е.С., СТ.ПРЕПОДАВАТЕЛЬ, ДИСТАНТ<br />
+          09:40 - 11:10(10)
         </div>
       </div>
       <div class="row">
         <div class="col-1 subject-number">3</div>
         <div class="col-11 subject-name">
-          WEB-ПРОГРАММИРОВАНИЕ (ЛЕК.)<br />ПОТАПОВ В.В., АУД. А-13<br />11:20 -
-          12:50
+          МЕТОДЫ ОПТИМИЗАЦИИ И ИССЛЕДОВАНИЕ ОПЕРАЦИЙ (ПР.)<br />
+          КРАСИЛЬНИКОВА Е.С., СТ.ПРЕПОДАВАТЕЛЬ, ДИСТАНТ<br />
+          11:20 - 12:50(25)
         </div>
       </div>
       <div class="row">
-        <div class="col-1 subject-number">7</div>
+        <div class="col-1 subject-number">4</div>
         <div class="col-11 subject-name">
-          ПРИКЛАДНАЯ И ОЗДОРОВИТЕЛЬНАЯ ФИЗИЧЕСКАЯ КУЛЬТУРА (ЛЕК.)*<br />ИВАНОВ
-          В.Д., ДОЦЕНТ, ДИСТАНЦИОННО<br />18:20 - 19:50
+          ТЕХНОЛОГИЯ БАЗ ДАННЫХ (ЛАБ.)<br />
+          АЛЕКСЕЕВА Т.М., ДОЦЕНТ, ДИСТАНТ<br />
+          13:15 - 14:45(15)
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid day-name" id="saturday">Суббота</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 subject-number">4</div>
+        <div class="col-11 subject-name">
+          УПРАВЛЕНИЕ IT-ПРОЕКТАМИ (ЛЕК.)<br />
+          ПОТАПОВ В.В.,  АУД. А-13<br />
+          13:15 - 14:45 (15)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 subject-number">5</div>
+        <div class="col-11 subject-name">
+          РАЗРАБОТКА ПРИЛОЖЕНИЙ ДЛЯ ОПЕРАЦ-ОЙ СИСТЕМЫ WINDOWS (ЛЕК.)<br />
+          ПОТАПОВ В.В.,  АУД. А-13<br />
+          15:00 - 16:30
         </div>
       </div>
     </div>
