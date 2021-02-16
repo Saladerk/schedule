@@ -1,16 +1,10 @@
-.container-fluid.day-name {
-    background-color: green;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-  }
-  .subject-number {
+.subject-number {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     text-align: center;
     vertical-align: middle;
   }
-  .subject-name {
+.subject-name {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-  }
+}
